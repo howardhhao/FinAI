@@ -20,6 +20,7 @@ FinAI is a mobile application built with React Native (Expo) to help users manag
 ## Getting Started
 ### 1. Clone the Repository
 git clone https://github.com/your-username/FinAI.git
+
 cd FinAI
 
 ### 2. Install Dependencies
@@ -29,7 +30,9 @@ npm install
 Create a .env file in the root directory:
 
 SUPABASE_URL=https://your-supabase-url.supabase.co
+
 SUPABASE_ANON_KEY=your-supabase-anon-key
+
 HF_API_TOKEN=your-huggingface-api-token
 
 Note: Make sure .env is listed in .gitignore to avoid pushing secrets.
