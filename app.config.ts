@@ -1,4 +1,3 @@
-import 'dotenv/config';
 import { ExpoConfig } from 'expo/config';
 
 const config: ExpoConfig = {
@@ -25,11 +24,6 @@ const config: ExpoConfig = {
   },
   web: {
     favicon: './assets/favicon.png',
-  },
-  extra: {
-    supabaseUrl: process.env.SUPABASE_URL,
-    supabaseAnonKey: process.env.SUPABASE_ANON_KEY,
-    hfApiToken: process.env.HF_API_TOKEN,
   },
 };
 

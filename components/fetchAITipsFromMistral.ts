@@ -1,8 +1,7 @@
 import axios from "axios";
-
+import { HF_API_TOKEN } from '../env';
 
 const HF_MODEL = "google/gemma-2-2b-it:nebius";
-const HF_API_TOKEN = "secret";
 
 export async function fetchAITipsFromMistral(
   weeklyTotals: Record<string, number>,
